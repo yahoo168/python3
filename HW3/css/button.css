@@ -1,0 +1,74 @@
+div>a:nth-child(4n+1) {
+    background: orange;
+}
+
+div>a:nth-child(4n+2) {
+    background: grey;
+}
+
+div>a:nth-child(4n+3) {
+    background: palegreen;
+}
+
+div>a:nth-child(4n+4) {
+    background: slateblue;
+}
+
+.btn {
+    /* border-style: solid;
+    border-width: 1px; */
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    /* border-color: #777777; */
+    background-color: #dddddd;
+    color: #222222;
+    box-shadow: inset -4px -4px 5px 0px #7b7b7b;
+    border-color: #bbbbbb;
+}
+
+.btn:hover {
+    background-color: #777777;
+    color: #ffffff;
+    box-shadow: inset -4px -4px 5px #333333;
+}
+
+.btn {
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    /* border-color: #777777; */
+    background-color: #dddddd;
+    color: #222222;
+    box-shadow: inset -4px -4px 5px 0px #7b7b7b;
+    border-color: #bbbbbb;
+}
+
+.btn:hover {
+    background-color: #777777;
+    color: #ffffff;
+    box-shadow: inset -4px -4px 5px #333333;
+}
+
+.btn-green {
+    background-color: #4CAF50;
+    box-shadow: inset -4px -4px 5px #2E692E;
+}
+
+.btn-green:hover {
+    background-color: #2e6931;
+    box-shadow: inset -4px -4px 5px #153115;
+}
+
+
+/* div>a:nth-child(2n+0) {
+    background-color: #4CAF50;
+    box-shadow: inset -4px -4px 5px #2E692E;
+}
+
+div>a:nth-child(2n+0):hover {
+    background-color: #2e6931;
+    box-shadow: inset -4px -4px 5px #153115;
+} */

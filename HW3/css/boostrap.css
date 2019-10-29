@@ -1,0 +1,22 @@
+    body>div>div>div:nth-child(1) {
+        background-color: #99d2ff;
+        text-align: center;
+    }
+    
+    body>div>div>div:nth-child(2) {
+        background-color: #a0f3a4;
+    }
+    
+    body>div>div>div:nth-child(3) {
+        background-color: #f0f995;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    body {
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+    
+    .container.custom-container-width {
+        max-width: 1010px;
+    }
